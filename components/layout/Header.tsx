@@ -18,10 +18,10 @@ const { openSearch } = useUIStore();
 
         {/* 2. 메인 메뉴 (중앙) - 나중에 기능 추가 예정 */}
         <nav className="hidden md:flex gap-8 text-sm font-bold text-gray-800">
-          <Link href="/?category=top" className="hover:text-black transition">TOP</Link>
-          <Link href="/?category=bottom" className="hover:text-black transition">BOTTOM</Link>
-          <Link href="/?category=bag" className="hover:text-black transition">BAG</Link>
-          <Link href="/?category=acc" className="hover:text-black transition">ACC</Link>
+          <Link href="/category/list?category=top" className="hover:text-black transition">TOP</Link>
+          <Link href="/category/list?category=bottom" className="hover:text-black transition">BOTTOM</Link>
+          <Link href="/category/list?category=bag" className="hover:text-black transition">BAG</Link>
+          <Link href="/category/list?category=top" className="hover:text-black transition">ACC</Link>
         </nav>
 
         {/* 3. 아이콘 메뉴 (오른쪽) */}
